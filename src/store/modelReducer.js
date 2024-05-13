@@ -1,7 +1,7 @@
 import { STORE, UPDATE, DELETE } from "./modelActionTypes";
 import { initialData } from "./initialData";
 
-export default fucntion (storeData, action) {
+export default function(storeData, action) {
     switch (action.type){
         case STORE:
             return {
